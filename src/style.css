@@ -1,50 +1,31 @@
 
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.star-rating .star {
    
-  }
-  
-  .colorBtn {
-    background-color: #4CAF50; 
-    border: none; 
-    color: white;
-    padding: 15px 32px; 
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block; 
-    font-size: 16px; 
-    margin: 4px 2px; 
-    cursor: pointer; 
-    border-radius: 12px; 
-  }
-  .info{
-    color: #fff;
-    font-size: 32px;
-    text-align: center;
-  }
+}
 
-  .down{
-    color: #fff;
-    margin-top: 50px;
-    
-  }
+.star-rating .active {
+  color: gold; 
+}
 
-  .changeBtn{
-    background-color: #02c4ff; 
-    border: none; 
-    color: white;
-    padding: 20px 42px; 
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block; 
-    font-size: 16px; 
-    margin: 4px 2px; 
-    cursor: pointer; 
-    border-radius: 30px; 
-  }
+.star-rating .inactive {
+  color: grey; /* Color for inactive stars */
+}
+.footnote{
+
+}
+

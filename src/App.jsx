@@ -1,10 +1,10 @@
 import React from 'react'
-import RandomColor from './RandomColor'
+import StarRating from './StarRating'
 
 
 const App = () => {
   return (
-   <RandomColor />
+  <StarRating />
   )
 }
 
