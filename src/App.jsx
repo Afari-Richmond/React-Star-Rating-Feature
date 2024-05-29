@@ -1,9 +1,10 @@
 import React from 'react'
-import Accordion from './Accordion'
+import RandomColor from './RandomColor'
+
 
 const App = () => {
   return (
-    <Accordion />
+   <RandomColor />
   )
 }
 
